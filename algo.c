@@ -15,6 +15,14 @@ void algo7();
 void algo8();
 void algo9();
 
+void printar_vetor(int vetor[]) {
+
+    printf("[");
+    for(int i = 5; i >= 1; i--) {
+        printf("%d " "", vetor[i]);
+    }
+    printf("]");
+}
 
 
 
